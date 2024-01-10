@@ -146,27 +146,31 @@
 				opacity: 0.8;
 		}
 		.floating-container>span {
-			   margin-top: 15px;
-			   font-size: 30px;
-			   font-family: none;
-			   color: #001d38;
-			   font-weight: 800;
-			   letter-spacing: 15px;
-			   padding-left: 88px;
-			}
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: none;
+    color: #001d38;
+    font-weight: 800;
+    letter-spacing: 15px;
+    padding-left: 88px;
+		}
 		.floating-container {
 			    position: absolute;
 			    z-index: 1;
 			}
-	.floating-container>ul {
+.floating-container>ul {
 		list-style-type: none;
 		margin-top: 5px;
 		font-family: monospace;
 		text-align: center;
-		font-size: 30px;
+		font-size: 25px;
 		color: #641717;
 		}
-
+.floating-container ul li span {
+ 		color: #ff000a;
+		font-size: 20px;
+		font-family: fantasy;
+		}
 .about-collect-container {
     display: flex;
     flex-direction: row;
@@ -175,7 +179,7 @@
 }
 
 .wrapper {
-		width: 1340px;
+		width: 1280px;
 	}
 	.third-container {
     display: flex;
@@ -207,14 +211,15 @@
 .updatepic>img {
     height: 200px;
     margin-top: 10px;
-    width: 529px;
+    width: 470px;
 }
 .footer {
     background: #02000ce8;
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 5px
+    padding: 20px;
+    height: 60px;
 }
 .copyright {
     font-size: 13px;
@@ -227,6 +232,9 @@
     font-size: 13px;
     text-align: center;
     padding-left: 2px;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
 }
 .contact>span {
     font-size: 13px;
@@ -236,8 +244,8 @@
 .contact>p {
     display: flex;
     flex-direction: row;
-    padding-left: 50px;
     gap: 5px;
+    margin: 0px;
 }
 .contact p img {
     height: 20px;
@@ -247,6 +255,12 @@
     flex-direction: row;
     padding-left: 50px;
     gap: 5px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding-left: 50px;
 }
 .aboutnav {
     display: flex;
@@ -270,7 +284,7 @@
 .aboutnav img {
     position: absolute;
     width: 25%;
-    right: 20px;
+    right: 40px;
     padding: 30px;
     padding-right: 1px;
     background: #4e4eef52;
@@ -280,8 +294,8 @@
 .gallerynav {
     display: flex;
     flex-direction: row;
-		gap:20px;
-		margin: 10px;
+    gap: 15px;
+    margin: 10px;
 }
 .labelcampus {
     font-size: 30px;
@@ -380,8 +394,8 @@
 }
 .stuimg-container {
     background-color: #3fcbcb24;
-    padding-top: 2px;
-    padding-bottom: 20px;
+    width: 340px;
+    padding: 16px;
 }
 .searchbar input[type="text"] {
     border-radius: 20px;
@@ -392,12 +406,11 @@
 .books-container {
     display: flex;
     flex-direction: column;
-		gap:60px;
+		gap:90px;
 }
 .new-container {
     display: flex;
     flex-direction: column;
-		padding-left: 15px;
 }
 .newlabel {
     display: flex;
@@ -411,7 +424,6 @@
     gap: 120px;
     height: 200px;
 		margin: 20px;
-    padding: 20px;
 }
 .newimg1 img {
   width: 150px;
@@ -539,7 +551,7 @@
 .science span {
     position: absolute;
     display: flex;
-    left: 130px;
+    left: 160px;
     font-size: 40px;
     margin-top: 70px;
     font-family: fantasy;
@@ -558,7 +570,7 @@
 .filipino span {
     position: absolute;
     display: flex;
-    left: 550px;
+    left: 570px;
     font-size: 40px;
     margin-top: 70px;
     font-family: fantasy;
@@ -582,7 +594,7 @@
 .culture span {
     position: absolute;
     display: flex;
-    right: 180px;
+    right: 150px;
     font-size: 40px;
     margin-top: 70px;
     font-family: fantasy;
@@ -601,7 +613,7 @@
 .fictional span {
     position: absolute;
     display: flex;
-    left: 130px;
+    left: 160px;
     font-size: 40px;
     margin-top: 70px;
     font-family: fantasy;
@@ -623,7 +635,7 @@
 .nonfictional span {
     position: absolute;
     display: flex;
-    left: 540px;
+    left: 570px;
     font-size: 30px;
     margin-top: 80px;
     font-family: fantasy;
@@ -646,7 +658,7 @@
 .history span {
     position: absolute;
     display: flex;
-    right: 180px;
+    right: 150px;
     font-size: 40px;
     margin-top: 70px;
     font-family: fantasy;
@@ -855,7 +867,6 @@
     display: flex;
     gap: 120px;
     height: 200px;
-		margin: 20px;
     padding: 20px;
 }
 .scienceimg1 img {
@@ -954,9 +965,211 @@
     display: flex;
     gap: 120px;
     height: 200px;
-		margin: 20px;
     padding: 20px;
 }
 .scienceimg2 img {
+  width: 150px;
+}
+.FormationSolar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.FormationSolar a img {
+    height: 230px;
+}
+.FormationSolar span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.FormationSolar span a:hover{
+	background-color:#15374a80;
+}
+.CorpusEarthling {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.CorpusEarthling a img {
+    height: 230px;
+}
+.CorpusEarthling span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.CorpusEarthling span a:hover{
+	background-color:#15374a80;
+}
+.DowntoEarth {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.DowntoEarth a img {
+    height: 230px;
+}
+.DowntoEarth span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.DowntoEarth span a:hover{
+	background-color:#15374a80;
+}
+.ASpaceOdyssey {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.ASpaceOdyssey a img {
+    height: 230px;
+}
+.ASpaceOdyssey span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.ASpaceOdyssey span a:hover{
+	background-color:#15374a80;
+}
+.DiversionsNaturalist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.DiversionsNaturalist a img {
+    height: 230px;
+}
+.DiversionsNaturalist span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.DiversionsNaturalist span a:hover{
+	background-color:#15374a80;
+}
+.filipinobackground-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.filipino-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    gap: 100px;
+    height: 710px;
+    background-color: whitesmoke;
+}
+
+.filipinoimg1 {
+    display: flex;
+    gap: 120px;
+    height: 200px;
+    padding: 20px;
+}
+.filipinoimg1 img {
+  width: 150px;
+}
+.Floranteatlaura {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.Floranteatlaura a img {
+    height: 230px;
+}
+.Floranteatlaura span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.Floranteatlaura span a:hover{
+	background-color:#15374a80;
+}
+.LaTercera {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.LaTercera a img {
+    height: 230px;
+}
+.LaTercera span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.LaTercera span a:hover{
+	background-color:#15374a80;
+}
+.NoliMeTangere {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.NoliMeTangere a img {
+    height: 230px;
+}
+.NoliMeTangere span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.NoliMeTangere span a:hover{
+	background-color:#15374a80;
+}
+.TwoNavels {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.TwoNavels a img {
+    height: 230px;
+}
+.TwoNavels span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.TwoNavels span a:hover{
+	background-color:#15374a80;
+}
+.filipinoimg2 {
+    display: flex;
+    gap: 120px;
+    height: 200px;
+    padding: 20px;
+}
+.filipinoimg2 img {
   width: 150px;
 }
