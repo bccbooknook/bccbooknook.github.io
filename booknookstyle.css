@@ -544,17 +544,19 @@
     opacity: 0.5;
     height: 200px;
 }
-.science {
-    display: flex;
-    flex-direction: column;
+.science{
+	display: flex;
+ 	flex-direction: column;
+ 	position: relative;
+ 	text-align: center;
+ 	align-items: center;
+ 	justify-content: center;
 }
 .science span {
-    position: absolute;
-    display: flex;
-    left: 160px;
-    font-size: 40px;
-    margin-top: 70px;
-    font-family: fantasy;
+	position: absolute;
+	display: flex;
+ 	font-size: 40px;
+ 	font-family: fantasy;
 }
 .science span a {
     text-decoration: none;
@@ -564,16 +566,18 @@
     background: bisque;
 }
 .filipino{
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 .filipino span {
-    position: absolute;
-    display: flex;
-    left: 570px;
-    font-size: 40px;
-    margin-top: 70px;
-    font-family: fantasy;
+	position: absolute;
+	display: flex;
+	font-size: 40px;
+	font-family: fantasy;
 }
 .filipino span a {
     text-decoration: none;
@@ -583,8 +587,12 @@
     background: bisque;
 }
 .culture{
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 .culture img {
     display: flex;
@@ -592,12 +600,10 @@
     height: 206px;
 }
 .culture span {
-    position: absolute;
-    display: flex;
-    right: 150px;
-    font-size: 40px;
-    margin-top: 70px;
-    font-family: fantasy;
+	position: absolute;
+	display: flex;
+	font-size: 40px;
+	font-family: fantasy;
 }
 .culture span a {
     text-decoration: none;
@@ -669,6 +675,37 @@
 }
 .history:hover {
     background: bisque;
+}
+.science,
+.filipino,
+.culture,
+.fictional,
+.nonfictional,
+.history {
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.science span,
+.filipino span,
+.culture span,
+.fictional span,
+.nonfictional span,
+.history span {
+    position: absolute !important;
+    display: flex !important;
+    font-size: 40px !important;
+    font-family: fantasy !important;
+    margin-top: 0 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    left: unset !important;
+    top: unset !important;
+    right: unset !important;
 }
 .bookmycenae {
     display: flex;
@@ -1162,6 +1199,25 @@
 	color: saddlebrown;
 }
 .TwoNavels span a:hover{
+	background-color:#15374a80;
+}
+.PanitikanSaPilipinas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    color: saddlebrown;
+}
+.PanitikanSaPilipinas a img {
+    height: 230px;
+}
+.PanitikanSaPilipinas span a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+.PanitikanSaPilipinas span a:hover{
 	background-color:#15374a80;
 }
 .filipinoimg2 {
