@@ -273,11 +273,12 @@
     display: flex;
     flex-direction: row;
     position: relative;
+		gap:20px
 }
 .aboutlabel-container {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 69%;
 }
 .aboutnav span {
     font-size: 35px;
@@ -291,14 +292,15 @@
     margin-top: 10px;
 }
 .aboutnav img {
-    position: absolute;
-    width: 25%;
+    width: 100%;
     right: 40px;
     padding: 30px;
-    padding-right: 1px;
     background: #4e4eef52;
     display: flex;
     border-radius: 50%;
+}
+.imgnav{
+width:25%
 }
 .gallerynav {
     display: flex;
