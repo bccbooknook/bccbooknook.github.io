@@ -3,6 +3,7 @@
 				margin:0;
 				display: flex;
 				justify-content: center;
+				background:url("main-bg.jpg");
 			}
 			.logo>img{
 				height:60px;
