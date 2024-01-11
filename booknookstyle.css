@@ -266,9 +266,18 @@
     display: flex;
     flex-direction: column;
     text-align: justify;
-    width: 65%;
     justify-content: left;
     margin: 10px;
+}
+.aboutnav-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.aboutlabel-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
 }
 .aboutnav span {
     font-size: 35px;
