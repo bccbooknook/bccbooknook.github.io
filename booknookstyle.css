@@ -236,9 +236,10 @@ body {
 }
 
 .forth-container > ul {
-    font-size: 25px;
+    font-size: 23px;
     margin: 3px;
     color: white;
+    padding: 0px;
 }
 
 .updatepic > img {
