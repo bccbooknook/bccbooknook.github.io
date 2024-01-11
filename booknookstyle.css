@@ -407,6 +407,7 @@ width:25%
     background-color: #3fcbcb24;
     width: 340px;
     padding: 16px;
+    padding-bottom: 5px;
 }
 .searchbar input[type="text"] {
     border-radius: 20px;
