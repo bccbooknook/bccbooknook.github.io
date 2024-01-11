@@ -1,153 +1,172 @@
-			body{
-				padding:0;
-				margin:0;
-				display: flex;
-				justify-content: center;
-				background: linear-gradient(to right, rgb(255 255 255 / 70%), rgb(122 122 122 / 70%)), url(main-bg.jpg);
-    		background-size: cover;
-			}
-			.logo>img{
-				height:60px;
-				width:60px;
-			}
-			.logo>h1{
-				font-size: 20px;
-				color: blue;
-			}
-			.hp>img{
-				object-fit: cover;
-				width:100%;
-				height:200px;
-			}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(255 255 255 / 70%), rgb(122 122 122 / 70%)), url(main-bg.jpg);
+    background-size: cover;
+}
 
-			.logo{
-				display: flex;
-				flex-direction: row;
-				width: 100%;
-				align-items: center;
-				gap: 20px;
-				font-family: "arial",unicode;
+.logo > img {
+    height: 60px;
+    width: 60px;
+}
 
-			}
+.logo > h1 {
+    font-size: 20px;
+    color: blue;
+}
 
-			.navigation>ul{
-					list-style-type: none;
-					font-size: 25px;
-					display: flex;
-					flex-direction: row;
-					width: 100%;
-					align-items: center;
-					gap: 35px;
-					text-transform: uppercase;
-					margin: 0;
-					padding: 0;
-					justify-content: right;
-					padding-right: 15px;
+.hp > img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
 
-			}
-			.top-container{
-				display: flex;
-				flex-direction: row;
-				gap: 5px;
-				margin: 0 15px
-				}
-			.navigation {
-				display: flex;
-				width: 100%;
-				font-family: monospace;
-				}
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    font-family: "arial", unicode;
 
-			.navigation ul>li {
-				letter-spacing: 2px;
-			}
-			.navigation ul>li:hover{
-				background-color:#accff1;
-			}
-			.navigation ul li a {
-		    text-decoration:none;
-		    color: black;
-				}
-			.WC{
-				font-size: 30px;
-				position: absolute;
-				display: block;
-				top: 55px;
-				color: white;
-				}
-			.BCC {
-				position: absolute;
-				display: block;
-				top: 150px;
-				color: white;
-				font-size: 80px;
-				padding-left: 40px;
-				font-family: brush script MT;
-				}
-			.WC {
-				position: absolute;
-				display: block;
-				top: 70px;
-				color: white;
-				font-size: 65px;
-				padding-left: 18px;
-			}
-			.about {
-		    display: flex;
-		    background-color: #c3924f;
-		    padding-left: 5px;
-		    flex-direction: column;
-				padding: 10px;
-		}
-		.about>span {
-		    font-size: 30px;
-		    font-family: arial;
-		    font-weight: 700;
-		    text-align: center;
-		}
-		.about>p {
-			font-size: 23px;
-	    font-family: forum;
-	    color: white;
-	    text-align: left;
-	    margin-top: 10px;
-	    line-height: 2;
-		}
-		.Collect {
-		    background-color: whitesmoke;
-		    width: 80%;
-		    margin: 0;
-		    display: flex;
-		    flex-direction: column;
-				padding: 10px;
-		}
-		.Collect>span {
-			font-size: 30px;
-	    font-family: arial;
-	    font-weight: 700;
-		  padding-left: 20px;
-		}
-		.Collect>ul {
-				list-style-type: none;
-				font-size: 17px;
-				margin-top: 3px;
-				display: block;
-				font-family: arial;
-				font-weight: 900;
-				color: #703c06db;
-				padding-left: 20px;
-		}
-	.new {
-		 display: flex;
-	  	flex-direction: column;
-			margin-top: 10px;
-		}
-		.new>img {
-		    height: 200px;
-		    width: 800px;
-		    object-fit: cover;
-				opacity: 0.8;
-		}
-		.floating-container>span {
+}
+
+.navigation > ul {
+    list-style-type: none;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 35px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+    padding-right: 15px;
+
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 0 15px
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    font-family: monospace;
+}
+
+.navigation ul > li {
+    letter-spacing: 2px;
+}
+
+.navigation ul > li:hover {
+    background-color: #accff1;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.WC {
+    font-size: 30px;
+    position: absolute;
+    display: block;
+    top: 55px;
+    color: white;
+}
+
+.BCC {
+    position: absolute;
+    display: block;
+    top: 150px;
+    color: white;
+    font-size: 80px;
+    padding-left: 40px;
+    font-family: brush script MT;
+}
+
+.WC {
+    position: absolute;
+    display: block;
+    top: 70px;
+    color: white;
+    font-size: 65px;
+    padding-left: 18px;
+}
+
+.about {
+    display: flex;
+    background-color: #c3924f;
+    padding-left: 5px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.about > span {
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about > p {
+    font-size: 23px;
+    font-family: forum;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 2;
+}
+
+.Collect {
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Collect > span {
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.Collect > ul {
+    list-style-type: none;
+    font-size: 17px;
+    margin-top: 3px;
+    display: block;
+    font-family: arial;
+    font-weight: 900;
+    color: #703c06db;
+    padding-left: 20px;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.new > img {
+    height: 200px;
+    width: 800px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.floating-container > span {
     margin-top: 15px;
     font-size: 30px;
     font-family: none;
@@ -155,68 +174,79 @@
     font-weight: 800;
     letter-spacing: 15px;
     padding-left: 88px;
-		}
-		.floating-container {
-			    position: absolute;
-			    z-index: 1;
-			}
-.floating-container>ul {
-		list-style-type: none;
-		margin-top: 5px;
-		font-family: monospace;
-		text-align: center;
-		font-size: 25px;
-		color: #641717;
-		}
+}
+
+.floating-container {
+    position: absolute;
+    z-index: 1;
+}
+
+.floating-container > ul {
+    list-style-type: none;
+    margin-top: 5px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    color: #641717;
+}
+
 .floating-container ul li span {
- 		color: #ff000a;
-		font-size: 20px;
-		font-family: fantasy;
-		}
+    color: #ff000a;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
 .about-collect-container {
     display: flex;
     flex-direction: row;
-		height: 250px;
-		gap: 10px;
+    height: 250px;
+    gap: 10px;
 }
 
 .wrapper {
-		width: 1280px;
-		animation: fadeIn 1.5s ease-in;
-		background-color: whitesmoke;
-	}
-	.third-container {
+    width: 1280px;
+    animation: fadeIn 0.6s ease-in;
+    background-color: whitesmoke;
+}
+
+.third-container {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-	}
-	.update {
+    gap: 15px;
+}
+
+.update {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .forth-container {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    padding-top: 15px;
 }
-	.forth-container>span {
-		text-align: center;
+
+.forth-container > span {
+    text-align: center;
     font-size: 30px;
     font-family: monospace;
     font-weight: 600;
 }
-.forth-container>ul {
-	font-size: 25px;
-	margin: 3px;
-	color: white;
+
+.forth-container > ul {
+    font-size: 25px;
+    margin: 3px;
+    color: white;
 }
-.updatepic>img {
+
+.updatepic > img {
     height: 200px;
     margin-top: 10px;
-    width: 470px;
+    width: 465px;
 }
+
 .footer {
     background: #02000ce8;
     color: white;
@@ -225,13 +255,14 @@
     padding: 20px;
     height: 60px;
 }
+
 .copyright {
     font-size: 13px;
     text-align: left;
-		padding-left: 10px
-;
+    padding-left: 10px;
     margin: 3px;
 }
+
 .contact {
     font-size: 13px;
     text-align: center;
@@ -240,32 +271,38 @@
     display: flex;
     flex-direction: column;
 }
-.contact>span {
+
+.contact > span {
     font-size: 13px;
     text-align: center;
     padding-left: 50px;
 }
-.contact>p {
+
+.contact > p {
     display: flex;
     flex-direction: row;
     gap: 5px;
     margin: 0px;
 }
+
 .contact p img {
     height: 20px;
 }
-.contact>p {
+
+.contact > p {
     display: flex;
     flex-direction: row;
     padding-left: 50px;
     gap: 5px;
 }
+
 .address {
     display: flex;
     flex-direction: column;
     font-size: 13px;
     padding-left: 50px;
 }
+
 .aboutnav {
     display: flex;
     flex-direction: column;
@@ -273,6 +310,7 @@
     justify-content: left;
     margin: 10px;
 }
+
 .aboutnav-container {
     display: flex;
     flex-direction: row;
@@ -281,22 +319,26 @@
     align-items: center;
     padding: 20px;
 }
+
 .aboutlabel-container {
     display: flex;
     flex-direction: column;
     width: 69%;
 }
+
 .aboutnav span {
     font-size: 35px;
     font-family: georgia;
     font-weight: 700;
     text-align: left;
 }
+
 .aboutnav p {
     font-size: 25px;
     font-family: gotham;
     margin-top: 10px;
 }
+
 .aboutnav img {
     width: 100%;
     right: 40px;
@@ -305,21 +347,25 @@
     display: flex;
     border-radius: 50%;
 }
-.imgnav{
-width:25%
+
+.imgnav {
+    width: 25%
 }
+
 .gallerynav {
     display: flex;
     flex-direction: row;
     gap: 15px;
     margin: 10px;
 }
+
 .labelcampus {
     font-size: 30px;
     font-family: georgia;
     color: darkblue;
     margin: 10px;
 }
+
 .galimg1 {
     display: flex;
     flex-direction: row;
@@ -328,20 +374,24 @@ width:25%
     justify-content: center;
     margin: 20px;
 }
+
 .galimg1 img {
     height: 130px;
     object-fit: cover;
 }
+
 .galimg2 {
     justify-content: center;
     display: flex;
     flex-direction: row;
     height: 130px;
 }
+
 .galimg2 img {
     width: 200px;
     object-fit: cover;
 }
+
 .camgal-container {
     background-color: #3fcbcb24;
     padding-top: 2px;
@@ -354,6 +404,7 @@ width:25%
     color: darkblue;
     margin: 10px;
 }
+
 .libimg1 {
     display: flex;
     flex-direction: row;
@@ -362,31 +413,37 @@ width:25%
     justify-content: center;
     margin: 20px;
 }
+
 .libimg1 img {
     height: 130px;
     object-fit: cover;
 }
+
 .libimg2 {
     justify-content: center;
     display: flex;
     flex-direction: row;
     height: 130px;
-		gap:10px;
+    gap: 10px;
 }
+
 .libimg2 img {
     width: 174px;
 }
+
 .libimg-container {
     background-color: #3fcbcb24;
     padding-top: 2px;
     padding-bottom: 20px;
 }
+
 .studentlabel {
     font-size: 30px;
     font-family: georgia;
     color: darkblue;
     margin: 10px;
 }
+
 .stuimg1 {
     display: flex;
     flex-direction: row;
@@ -395,57 +452,72 @@ width:25%
     justify-content: center;
     margin: 20px;
 }
+
 .stuimg1 img {
     height: 130px;
     object-fit: cover;
 }
+
 .stuimg2 {
     justify-content: center;
     display: flex;
     flex-direction: row;
     height: 130px;
-		gap:10px;
+    gap: 10px;
 }
+
 .stuimg2 img {
     width: 174px;
 }
+
 .stuimg-container {
     background-color: #3fcbcb24;
     width: 340px;
     padding: 16px;
     padding-bottom: 5px;
 }
+
 .searchbar input[type="text"] {
     border-radius: 20px;
     border-color: sandybrown;
     height: 25px;
     width: 300px;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
 }
+
 .books-container {
     display: flex;
     flex-direction: column;
-		gap:90px;
+    gap: 90px;
 }
+
 .new-container {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
+
 .newlabel {
     display: flex;
     font-size: 30px;
     margin: 15px;
-		font-family: sans;
-		color: darkblue;
+    font-family: sans;
+    color: darkblue;
 }
+
 .newimg1 {
     display: flex;
     gap: 120px;
     height: 200px;
-		margin: 20px;
+    margin: 20px;
 }
+
 .newimg1 img {
-  width: 150px;
+    width: 150px;
 }
+
 .lady {
     display: flex;
     flex-direction: column;
@@ -455,13 +527,16 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
-.lady span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.lady span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.lady span a:hover{
-	background-color:#15374a80;
+
+.lady span a:hover {
+    background-color: #15374a80;
 }
+
 .mycenae {
     display: flex;
     flex-direction: column;
@@ -471,13 +546,16 @@ width:25%
     font-family: georgia;
     width: 150px;
 }
+
 .mycenae span a {
     text-decoration: none;
     color: saddlebrown;
 }
-.mycenae span a:hover{
-		background-color:#15374a80;
+
+.mycenae span a:hover {
+    background-color: #15374a80;
 }
+
 .trial {
     display: flex;
     flex-direction: column;
@@ -487,13 +565,16 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .trial span a {
     text-decoration: none;
     color: saddlebrown;
 }
-.trial span a:hover{
-		background-color:#15374a80;
+
+.trial span a:hover {
+    background-color: #15374a80;
 }
+
 .alladin {
     display: flex;
     flex-direction: column;
@@ -504,13 +585,16 @@ width:25%
     color: saddlebrown;
     width: 150px;
 }
+
 .alladin span a {
     text-decoration: none;
     color: saddlebrown;
 }
-.alladin span a:hover{
-		background-color:#15374a80;
+
+.alladin span a:hover {
+    background-color: #15374a80;
 }
+
 .time {
     display: flex;
     flex-direction: column;
@@ -520,13 +604,16 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .time span a {
     text-decoration: none;
     color: saddlebrown;
 }
-.time span a:hover{
-		background-color:#15374a80;
+
+.time span a:hover {
+    background-color: #15374a80;
 }
+
 .categorieslabel {
     display: flex;
     flex-direction: row;
@@ -538,102 +625,121 @@ width:25%
     color: #15374a;
     font-weight: 600;
 }
+
 .BGbooks1 {
     display: flex;
     flex-direction: row;
     gap: 100px;
     margin: 100px;
-		margin-top: 0px;
+    margin-top: 0px;
 }
+
 .BGbooks1 img {
     width: 300px;
     opacity: 0.5;
     height: 200px;
 }
+
 .BGbooks2 {
     display: flex;
     flex-direction: row;
     gap: 100px;
     margin: 100px;
-		margin-top: 0px;
+    margin-top: 0px;
 }
+
 .BGbooks2 img {
     width: 300px;
     opacity: 0.5;
     height: 200px;
 }
-.science{
-	display: flex;
- 	flex-direction: column;
- 	position: relative;
- 	text-align: center;
- 	align-items: center;
- 	justify-content: center;
+
+.science {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
 .science span {
-	position: absolute;
-	display: flex;
- 	font-size: 40px;
- 	font-family: fantasy;
+    position: absolute;
+    display: flex;
+    font-size: 40px;
+    font-family: fantasy;
 }
+
 .science span a {
     text-decoration: none;
     color: #640808c9;
 }
+
 .science:hover {
     background: bisque;
 }
-.filipino{
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
+
+.filipino {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
 .filipino span {
-	position: absolute;
-	display: flex;
-	font-size: 40px;
-	font-family: fantasy;
+    position: absolute;
+    display: flex;
+    font-size: 40px;
+    font-family: fantasy;
 }
+
 .filipino span a {
     text-decoration: none;
     color: #640808c9;
 }
+
 .filipino:hover {
     background: bisque;
 }
-.culture{
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
+
+.culture {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
 .culture img {
     display: flex;
     justify-content: space-around;
     height: 206px;
 }
+
 .culture span {
-	position: absolute;
-	display: flex;
-	font-size: 40px;
-	font-family: fantasy;
+    position: absolute;
+    display: flex;
+    font-size: 40px;
+    font-family: fantasy;
 }
+
 .culture span a {
     text-decoration: none;
     color: #640808c9;
 }
+
 .culture:hover {
     background: bisque;
 }
+
 .fictional {
     display: flex;
     flex-direction: column;
 }
+
 .fictional span {
     position: absolute;
     display: flex;
@@ -642,20 +748,25 @@ width:25%
     margin-top: 70px;
     font-family: fantasy;
 }
+
 .fictional span a {
     text-decoration: none;
     color: #640808c9;
 }
+
 .fictional:hover {
     background: bisque;
 }
+
 .filipino:hover {
     background: bisque;
 }
-.nonfictional{
+
+.nonfictional {
     display: flex;
     flex-direction: column;
 }
+
 .nonfictional span {
     position: absolute;
     display: flex;
@@ -664,21 +775,26 @@ width:25%
     margin-top: 80px;
     font-family: fantasy;
 }
+
 .nonfictional span a {
     text-decoration: none;
     color: #640808c9;
 }
+
 .nonfictional:hover {
     background: bisque;
 }
-.history{
+
+.history {
     display: flex;
     flex-direction: column;
 }
+
 .history img {
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
+
 .history span {
     position: absolute;
     display: flex;
@@ -687,13 +803,16 @@ width:25%
     margin-top: 70px;
     font-family: fantasy;
 }
+
 .history span a {
     text-decoration: none;
     color: #640808c9;
 }
+
 .history:hover {
     background: bisque;
 }
+
 .science,
 .filipino,
 .culture,
@@ -725,15 +844,18 @@ width:25%
     top: unset !important;
     right: unset !important;
 }
+
 .bookmycenae {
     display: flex;
     flex-direction: row;
-		background-color: #b7874838;
+    background-color: #b7874838;
 }
+
 .bookmycenae span img {
     width: 150px;
     margin: 20px;
 }
+
 .mycenae-container {
     display: flex;
     gap: 20px;
@@ -742,33 +864,40 @@ width:25%
     margin: 20px;
     font-size: 15px;
 }
+
 .mycenaelabel span {
     font-size: 30px;
     font-weight: 700;
 }
+
 .abouttextmycenae {
     display: flex;
     flex-direction: column;
     text-align: justify;
     margin-top: 60px;
 }
+
 .mycenaeaboutlabel {
     font-size: 40px;
     font-weight: 700;
 }
+
 .abouttextmycenae p {
     font-size: 20px;
     color: #85420a;
 }
+
 .bookladytangledwood {
     display: flex;
     flex-direction: row;
-		background-color: #b7874838;
+    background-color: #b7874838;
 }
+
 .bookladytangledwood span img {
     width: 150px;
     margin: 20px;
 }
+
 .ladytangledwood-container {
     display: flex;
     gap: 20px;
@@ -777,16 +906,19 @@ width:25%
     margin: 20px;
     font-size: 15px;
 }
+
 .ladytangledwoodlabel span {
     font-size: 30px;
     font-weight: 700;
 }
+
 .abouttextladytangledwood {
     display: flex;
     flex-direction: column;
     text-align: justify;
     margin-top: 60px;
 }
+
 .ladytangledwoodaboutlabel {
     font-size: 40px;
     font-weight: 700;
@@ -796,15 +928,18 @@ width:25%
     font-size: 20px;
     color: #85420a;
 }
+
 .booktrialbysorcery {
     display: flex;
     flex-direction: row;
-		background-color: #b7874838;
+    background-color: #b7874838;
 }
+
 .booktrialbysorcery span img {
     width: 150px;
     margin: 20px;
 }
+
 .trialbysorcery-container {
     display: flex;
     gap: 20px;
@@ -813,16 +948,19 @@ width:25%
     margin: 20px;
     font-size: 15px;
 }
+
 .trialbysorcerylabel span {
     font-size: 30px;
     font-weight: 700;
 }
+
 .abouttexttrialbysorcery {
     display: flex;
     flex-direction: column;
     text-align: justify;
     margin-top: 60px;
 }
+
 .trialbysorceryaboutlabel {
     font-size: 40px;
     font-weight: 700;
@@ -832,15 +970,18 @@ width:25%
     font-size: 20px;
     color: #85420a;
 }
+
 .bookalladin {
     display: flex;
     flex-direction: row;
-		background-color: #b7874838;
+    background-color: #b7874838;
 }
+
 .bookalladin span img {
     width: 150px;
     margin: 20px;
 }
+
 .alladin-container {
     display: flex;
     gap: 20px;
@@ -849,16 +990,19 @@ width:25%
     margin: 20px;
     font-size: 15px;
 }
+
 .alladinlabel span {
     font-size: 30px;
     font-weight: 700;
 }
+
 .abouttextalladin {
     display: flex;
     flex-direction: column;
     text-align: justify;
     margin-top: 60px;
 }
+
 .alladinaboutlabel {
     font-size: 40px;
     font-weight: 700;
@@ -868,15 +1012,18 @@ width:25%
     font-size: 20px;
     color: #85420a;
 }
+
 .booktimetraders {
     display: flex;
     flex-direction: row;
-		background-color: #b7874838;
+    background-color: #b7874838;
 }
+
 .booktimetraders span img {
     width: 150px;
     margin: 20px;
 }
+
 .timetraders-container {
     display: flex;
     gap: 20px;
@@ -885,16 +1032,19 @@ width:25%
     margin: 20px;
     font-size: 15px;
 }
+
 .timetraderslabel span {
     font-size: 30px;
     font-weight: 700;
 }
+
 .abouttexttimetraders {
     display: flex;
     flex-direction: column;
     text-align: justify;
     margin-top: 60px;
 }
+
 .timetradersaboutlabel {
     font-size: 40px;
     font-weight: 700;
@@ -904,11 +1054,13 @@ width:25%
     font-size: 20px;
     color: #85420a;
 }
+
 .sciencebackground-container {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
+
 .science-container {
     display: flex;
     flex-direction: column;
@@ -924,9 +1076,11 @@ width:25%
     height: 200px;
     padding: 20px;
 }
+
 .scienceimg1 img {
-  width: 150px;
+    width: 150px;
 }
+
 .Journey {
     display: flex;
     flex-direction: column;
@@ -936,13 +1090,16 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
-.Journey span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.Journey span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.Journey span a:hover{
-	background-color:#15374a80;
+
+.Journey span a:hover {
+    background-color: #15374a80;
 }
+
 .Biology {
     display: flex;
     flex-direction: column;
@@ -952,13 +1109,16 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
-.Biology span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.Biology span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.Biology span a:hover{
-	background-color:#15374a80;
+
+.Biology span a:hover {
+    background-color: #15374a80;
 }
+
 .Physics {
     display: flex;
     flex-direction: column;
@@ -968,16 +1128,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .Physics a img {
     height: 230px;
 }
-.Physics span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.Physics span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.Physics span a:hover{
-	background-color:#15374a80;
+
+.Physics span a:hover {
+    background-color: #15374a80;
 }
+
 .astronomy {
     display: flex;
     flex-direction: column;
@@ -987,16 +1151,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .astronomy a img {
     height: 230px;
 }
-.astronomy span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.astronomy span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.astronomy span a:hover{
-	background-color:#15374a80;
+
+.astronomy span a:hover {
+    background-color: #15374a80;
 }
+
 .SolarSystem {
     display: flex;
     flex-direction: column;
@@ -1006,25 +1174,31 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .SolarSystem a img {
     height: 230px;
 }
-.SolarSystem span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.SolarSystem span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.SolarSystem span a:hover{
-	background-color:#15374a80;
+
+.SolarSystem span a:hover {
+    background-color: #15374a80;
 }
+
 .scienceimg2 {
     display: flex;
     gap: 120px;
     height: 200px;
     padding: 20px;
 }
+
 .scienceimg2 img {
-  width: 150px;
+    width: 150px;
 }
+
 .FormationSolar {
     display: flex;
     flex-direction: column;
@@ -1034,16 +1208,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .FormationSolar a img {
     height: 230px;
 }
-.FormationSolar span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.FormationSolar span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.FormationSolar span a:hover{
-	background-color:#15374a80;
+
+.FormationSolar span a:hover {
+    background-color: #15374a80;
 }
+
 .CorpusEarthling {
     display: flex;
     flex-direction: column;
@@ -1053,16 +1231,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .CorpusEarthling a img {
     height: 230px;
 }
-.CorpusEarthling span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.CorpusEarthling span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.CorpusEarthling span a:hover{
-	background-color:#15374a80;
+
+.CorpusEarthling span a:hover {
+    background-color: #15374a80;
 }
+
 .DowntoEarth {
     display: flex;
     flex-direction: column;
@@ -1072,16 +1254,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .DowntoEarth a img {
     height: 230px;
 }
-.DowntoEarth span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.DowntoEarth span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.DowntoEarth span a:hover{
-	background-color:#15374a80;
+
+.DowntoEarth span a:hover {
+    background-color: #15374a80;
 }
+
 .ASpaceOdyssey {
     display: flex;
     flex-direction: column;
@@ -1091,16 +1277,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .ASpaceOdyssey a img {
     height: 230px;
 }
-.ASpaceOdyssey span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.ASpaceOdyssey span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.ASpaceOdyssey span a:hover{
-	background-color:#15374a80;
+
+.ASpaceOdyssey span a:hover {
+    background-color: #15374a80;
 }
+
 .DiversionsNaturalist {
     display: flex;
     flex-direction: column;
@@ -1110,21 +1300,26 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .DiversionsNaturalist a img {
     height: 230px;
 }
-.DiversionsNaturalist span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.DiversionsNaturalist span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.DiversionsNaturalist span a:hover{
-	background-color:#15374a80;
+
+.DiversionsNaturalist span a:hover {
+    background-color: #15374a80;
 }
+
 .filipinobackground-container {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
+
 .filipino-container {
     display: flex;
     flex-direction: column;
@@ -1140,9 +1335,11 @@ width:25%
     height: 200px;
     padding: 20px;
 }
+
 .filipinoimg1 img {
-  width: 150px;
+    width: 150px;
 }
+
 .Floranteatlaura {
     display: flex;
     flex-direction: column;
@@ -1152,16 +1349,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .Floranteatlaura a img {
     height: 230px;
 }
-.Floranteatlaura span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.Floranteatlaura span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.Floranteatlaura span a:hover{
-	background-color:#15374a80;
+
+.Floranteatlaura span a:hover {
+    background-color: #15374a80;
 }
+
 .LaTercera {
     display: flex;
     flex-direction: column;
@@ -1171,16 +1372,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .LaTercera a img {
     height: 230px;
 }
-.LaTercera span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.LaTercera span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.LaTercera span a:hover{
-	background-color:#15374a80;
+
+.LaTercera span a:hover {
+    background-color: #15374a80;
 }
+
 .NoliMeTangere {
     display: flex;
     flex-direction: column;
@@ -1190,16 +1395,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .NoliMeTangere a img {
     height: 230px;
 }
-.NoliMeTangere span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.NoliMeTangere span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.NoliMeTangere span a:hover{
-	background-color:#15374a80;
+
+.NoliMeTangere span a:hover {
+    background-color: #15374a80;
 }
+
 .TwoNavels {
     display: flex;
     flex-direction: column;
@@ -1209,16 +1418,20 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .TwoNavels a img {
     height: 230px;
 }
-.TwoNavels span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.TwoNavels span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.TwoNavels span a:hover{
-	background-color:#15374a80;
+
+.TwoNavels span a:hover {
+    background-color: #15374a80;
 }
+
 .PanitikanSaPilipinas {
     display: flex;
     flex-direction: column;
@@ -1228,32 +1441,110 @@ width:25%
     font-family: georgia;
     color: saddlebrown;
 }
+
 .PanitikanSaPilipinas a img {
     height: 230px;
 }
-.PanitikanSaPilipinas span a{
-	text-decoration: none;
-	color: saddlebrown;
+
+.PanitikanSaPilipinas span a {
+    text-decoration: none;
+    color: saddlebrown;
 }
-.PanitikanSaPilipinas span a:hover{
-	background-color:#15374a80;
+
+.PanitikanSaPilipinas span a:hover {
+    background-color: #15374a80;
 }
+
 .filipinoimg2 {
     display: flex;
     gap: 120px;
     height: 200px;
     padding: 20px;
 }
+
 .filipinoimg2 img {
-  width: 150px;
+    width: 150px;
+}
+
+/*.searchbar {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; !* Adjust the margin as needed *!
+}
+
+.searchbar input[type="text"] {
+    width: 300px; !* Adjust the width as needed *!
+    height: 30px; !* Adjust the height as needed *!
+    border-radius: 20px;
+    border-color: sandybrown;
+}*/
+
+.book-cover a img {
+    width: 15%;
+}
+
+.new-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures items don't wrap to the next line */
+    justify-content: space-between; /* Adjust as needed for spacing */
+}
+.searchbar {
+    display: flex;
+    justify-content: end;
+    padding: 20px 20px 0 20px;
+    gap: 10px;
 }
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.form-contact form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 20px;
+    background-image: url(form-bg.png);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container > input {
+    width: 300px;
+    background-color: antiquewhite;
+}
+
+.form-container .long-msg {
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+button#submitButton {
+    background: #702a09;
+    color: white;
+    font-weight: 800;
+}
+
+.thank-you {
+    text-align: center;
 }
